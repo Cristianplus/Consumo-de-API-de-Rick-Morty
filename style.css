@@ -24,6 +24,10 @@ main {
     gap: 20px;
 }
 
+.main-container:hover {
+    transform: scale(1.5);
+}
+
 .image-container {
     display: flex;
 }
@@ -38,6 +42,11 @@ article {
     padding: 20px;
     box-shadow: 0 0 10px #000;
     border-radius: 10px;
+}
+
+article:hover {
+    transform: scale(1.06);
+    color: rgb(0, 143, 175);
 }
 
 span {
