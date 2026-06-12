@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.image-container {
+    display: flex;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+article {
+    padding: 20px;
+    box-shadow: 0 0 10px #000;
+    border-radius: 10px;
+}
+
+span {
+    display: block;
+}
